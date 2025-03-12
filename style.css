@@ -1,0 +1,29 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", serif;
+  background: linear-gradient(135deg, #f41cb7, #f9a4f7);
+  color: #fff;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+i {
+  font-size: 30px;
+}
+button :hover {
+  background-color: white;
+  color: black;
+}
